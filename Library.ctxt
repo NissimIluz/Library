@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Library
+comment0.text=\r\n\ This\ class\ represents\ a\ Library\ object\r\n\r\n\ @author\ Nisim\ eiloz\r\n\ @version\ 1\ \r\n
+comment1.params=
+comment1.target=Library()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Library\r\n\ Size\ of\ the\ array,\ \ the\ optional\ numbers\ of\ books\ in\ the\ Library,\=\ MAX_BOOKS\=200\r\n\ The\ number\ of\ books\ in\ the\ library\ \=0\r\n
+comment10.params=i\ j
+comment10.target=void\ RemovalAndIncitement(int,\ int)
+comment10.text=\ replace\ the\ book\ in\ j\ palce\ to\ place\ i.\r\n\ set\ the\ book\ is\ place\ j\ to\ nell\r\n
+comment2.params=b
+comment2.target=boolean\ addBook(Book)
+comment2.text=\r\n\ The\ method\ get\ a\ book\ and\ add\ the\ book\ to\ the\ first\ empty\ place\ in\ the\ array.\r\n\ \r\n\ @param\ b\ book\ (an\ object\ of\ class\ Book)\ to\ add\ to\ the\ Library\r\n\ @return\ true\ if\ the\ add\ is\ succeeded,\ false\ if\ not\ (in\ case\ thet\ the\ book\ is\ null\ or\ there\ is\ no\ room\ in\ the\ object)\r\n
+comment3.params=b
+comment3.target=void\ removeBook(Book)
+comment3.text=\r\n\ \r\n\ The\ method\ get\ book\ and\ removok\ all\ the\ book\ in\ the\ Library\ thet\ equals\ to\ this\ book\r\n\ \r\n\ @param\ b\ book\ (an\ object\ of\ class\ Book)\ to\ delete\ from\ the\ Library\r\n\ \r\n
+comment4.params=
+comment4.target=int\ howManyBooksBorrowed()
+comment4.text=\ \r\n\ The\ method\ count\ how\ many\ books\ are\ borrowed\r\n\ \r\n\ @return\ the\ number\ of\ book\ that\ borrowed\r\n
+comment5.params=name
+comment5.target=int\ howManyBooksBorrowedToStudent(java.lang.String)
+comment5.text=\ \r\n\ The\ method\ got\ a\ student\ name\ and\ count\ how\ many\ books\ are\ borrowing\ to\ a\ student\ with\ this\ name\r\n\ \r\n\ @param\ name\ the\ student\ name\ to\ count\r\n\ @return\ the\ number\ of\ book\ that\ borrowed\ to\ a\ student\ with\ this\ name\r\n
+comment6.params=
+comment6.target=java.lang.String\ mostPopularAuthor()
+comment6.text=\ \r\n\ The\ method\ finds\ the\ first\ Author\ name\ that\ has\ the\ most\ books\ in\ the\ library\r\n\ \r\n\ \r\n\ @return\ the\ firs\ name\ of\ the\ author\ withe\ the\ most\ book\ in\ the\ library.\ if\ the\ library\ is\ empty\ return\ null.\r\n
+comment7.params=
+comment7.target=Book\ oldestBook()
+comment7.text=\ \r\n\ The\ method\ return\ the\ oldest\ book\ in\ the\ library\r\n\ \r\n\ \r\n\ @return\ the\ firs\ oldest\ the\ oldest\ book\ in\ the\ library,\ if\ the\ library\ is\ empty\ retutn\ null\r\n
+comment8.params=name
+comment8.target=Book\ remove(java.lang.String)
+comment8.text=\ \r\n\ The\ method\ remove\ the\ first\ book\ with\ same\ name\ as\ input\ name\r\n\ \r\n\ @param\ name\ the\ Name\ of\ book\ to\ remove\ \r\n\ @return\ the\ book\ that\ has\ been\ removed,\ if\ there\ isn't\ book\ with\ same\ name\ return\ null\r\n
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\ \r\n\ The\ method\ create\ a\ string\ the\ represent\ the\ library\r\n\ \r\n\ @return\ a\ String\ with\ a\ title\ end\ all\ of\ this\ detals\ of\ all\ books\ in\ the\ library\:\ Title,\ Author,Year,pages.\ \r\n
+numComments=11
